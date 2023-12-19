@@ -11,8 +11,10 @@
             "id": "a10409f45f0df0a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "media/OSI-Layer.pdf"
+              }
             }
           }
         ]
@@ -27,6 +29,7 @@
       {
         "id": "99f2247e45439801",
         "type": "tabs",
+        "dimension": 69.66019417475728,
         "children": [
           {
             "id": "ab1e61aeb913edc4",
@@ -62,6 +65,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "89854b5ba90a5946",
+        "type": "tabs",
+        "dimension": 30.339805825242717,
+        "children": [
+          {
+            "id": "c356a35fb90a2894",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "media/OSI-Layer.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -81,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "media/OSI-Layer.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "media/OSI-Layer.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,14 +133,6 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
-            }
-          },
-          {
-            "id": "c356a35fb90a2894",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
             }
           },
           {
@@ -138,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -155,8 +169,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a10409f45f0df0a7",
+  "active": "ab1e61aeb913edc4",
   "lastOpenFiles": [
+    "media",
+    "media/OSI-Layer.pdf",
     "Test 1.md",
     "Test 2.md"
   ]
