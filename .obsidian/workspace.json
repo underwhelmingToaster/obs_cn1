@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8baf8cd993b7d856",
+        "id": "076ab6f708d8b8ef",
         "type": "tabs",
         "children": [
           {
-            "id": "ef1261fa0ded9284",
+            "id": "d1238ebee0b22de0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSI Model/Data Link Layer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81830fe6b1eaf314",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethernet.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -61,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#IEEE/802-2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +62,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "89854b5ba90a5946",
@@ -90,9 +75,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OSI Model/Data Link Layer.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -115,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSI Model/Data Link Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSI Model/Data Link Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,25 +169,35 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "ef1261fa0ded9284",
+  "active": "a017255bb49c5f40",
   "lastOpenFiles": [
-    "OSI Model/Application Layer.md",
-    "OSI Model/Transport Layer.md",
-    "OSI Model/Session Layer.md",
-    "OSI Model/Presentation Layer.md",
     "OSI Model/Physical Layer.md",
-    "Abbreviations.md",
-    "Ethernet.md",
-    "OSI Model/Data Link Layer.md",
-    "media/OSI-Layer.pdf",
     "10 Base Notation.md",
-    "TODOs.md",
+    "OSI Model/CMSA-CD.md",
+    "OSI Model/Application Layer.md",
+    "OSI Model/Duplex Modes.md",
+    "OSI Model/Logical Link Control.md",
+    "Abbreviations.md",
+    "IEEE Standards.md",
+    "bus system.png",
+    "OSI Model/Ethernet.md",
+    "See here for other cables.md",
     "Untitled",
+    "CSMA/CD.md",
+    "CSMA",
     "OSI Model/OSI Model.md",
+    "OSI Model/Presentation Layer.md",
     "OSI Model/Network Layer.md",
+    "OSI Model/Media Access Control (MAC).md",
+    "OSI Model/Session Layer.md",
+    "OSI Model/Data Link Layer.md",
+    "OSI Model/Transport Layer.md",
+    "media/OSI-Layer.pdf",
+    "TODOs.md",
     "OSI Model/ok.md",
     "OSI Model",
     "media/OSI-Layer.md",
