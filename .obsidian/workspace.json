@@ -4,17 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "36d461bfcc7c5ea1",
+        "id": "8baf8cd993b7d856",
         "type": "tabs",
         "children": [
           {
-            "id": "a10409f45f0df0a7",
+            "id": "ef1261fa0ded9284",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": false
+                "file": "OSI Model/Data Link Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81830fe6b1eaf314",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ethernet.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -77,7 +90,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OSI Model/Data Link Layer.md"
+              }
             }
           }
         ]
@@ -100,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OSI Model/Data Link Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OSI Model/Data Link Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +164,17 @@
               "type": "git-history-view",
               "state": {}
             }
+          },
+          {
+            "id": "35f9a935befc8986",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -166,11 +191,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a10409f45f0df0a7",
+  "active": "ef1261fa0ded9284",
   "lastOpenFiles": [
+    "OSI Model/Application Layer.md",
+    "OSI Model/Transport Layer.md",
+    "OSI Model/Session Layer.md",
+    "OSI Model/Presentation Layer.md",
+    "OSI Model/Physical Layer.md",
+    "Abbreviations.md",
+    "Ethernet.md",
+    "OSI Model/Data Link Layer.md",
     "media/OSI-Layer.pdf",
-    "media",
+    "10 Base Notation.md",
+    "TODOs.md",
+    "Untitled",
+    "OSI Model/OSI Model.md",
+    "OSI Model/Network Layer.md",
+    "OSI Model/ok.md",
+    "OSI Model",
+    "media/OSI-Layer.md",
     "Test 1.md",
-    "Test 2.md"
+    "Test 2.md",
+    "media"
   ]
 }
