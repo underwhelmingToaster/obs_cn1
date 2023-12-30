@@ -4,4 +4,3 @@ from #IEEE
 where contains(file.tags, "#IEEE") 
 
 ```
-

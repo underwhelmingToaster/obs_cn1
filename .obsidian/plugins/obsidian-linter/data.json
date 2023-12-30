@@ -112,7 +112,7 @@
       "style": "underscore"
     },
     "no-bare-urls": {
-      "enabled": false,
+      "enabled": true,
       "no-bare-uris": false
     },
     "ordered-list-style": {
@@ -188,7 +188,7 @@
       "enabled": false
     },
     "paragraph-blank-lines": {
-      "enabled": true
+      "enabled": false
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
       "enabled": false
@@ -246,7 +246,7 @@
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
-  "lintOnFileChange": false,
+  "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],
