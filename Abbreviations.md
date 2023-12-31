@@ -1,3 +1,4 @@
+
 | Abbr. | Name |
 | ---- | ---- |
 | NIC | Network Interface Card |
@@ -9,4 +10,10 @@
 | CSMA/CD | Carrier Sense Multiple Access with Collision Detection |
 | OUI | Organizational Unit Identifier |
 | LACP | Link Aggregation Control Protocol |
+| STP | Spanning Tree Protocol |
+| BPDU | Bridge Protocol Data Unit |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 |  |  |

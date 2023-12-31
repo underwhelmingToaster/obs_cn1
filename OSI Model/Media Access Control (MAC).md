@@ -26,5 +26,8 @@ Defaults to Unique, where the first three Bytes are an OUI. When an address is a
 ### Broadcast
 For a broadcast, the address FF:FF:FF:FF:FF:FF is used. Broadcasts are used by protocols such as [[DHCP]] and [[Address Resolution Protocol]].
 
+#### Broadcast Domain
+A broadcast domain is a logical division of a computer network where all devices can directly communicate with each other by broadcasting messages.
+
 ### Multicast
 MAC Addresses in the range _01-00-5E-00-00-00_ **–** _01-00-5E-7F-FF-FF_ are multicast addresses. These addresses allow a device to send a packet to a certain group of devices.
