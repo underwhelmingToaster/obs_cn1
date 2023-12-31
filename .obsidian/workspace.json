@@ -11,12 +11,39 @@
             "id": "9824cb28d121eb82",
             "type": "leaf",
             "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "083c0a99df4d966f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "43fd8277ba1b733f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "IP.md",
+                "file": "Abbreviations.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "c5614fbde7bb12f3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#IEEE/802-2",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,9 +105,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IP.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -103,8 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IP.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,41 +205,44 @@
   },
   "active": "9824cb28d121eb82",
   "lastOpenFiles": [
-    "IP.md",
-    "OSI Model/Address Resolution Protocol.md",
-    "OSI Model/Spanning Tree Protocol.md",
-    "OSI Model/Logical Link Control.md",
-    "OSI Model/Ethernet.md",
-    "10 Base Notation.md",
-    "OSI Model/OSI Model.md",
-    "media/MAC Address Structure.png",
+    "Network Address Translation.md",
+    "Application Layer.md",
     "Abbreviations.md",
+    "Network Layer.md",
+    "Address Resolution Protocol.md",
+    "IP.md",
+    "IPv4.md",
+    "Routing.md",
+    "media/Routing.png",
+    "Ethernet.md",
+    "Duplex Modes.md",
+    "CMSA-CD.md",
+    "DHCP.md",
+    "IPv6.md",
+    "Privacy Extension.md",
+    "EUI-64.md",
+    "media/EUI64.png",
+    "media/IPv6 Unicast.png",
+    "Data Link Layer.md",
+    "OSI Model.md",
+    "Logical Link Control.md",
+    "Physical Layer.md",
+    "Presentation Layer.md",
+    "Network Devices.md",
+    "Transport Layer.md",
+    "VLAN.md",
+    "Media Access Control (MAC).md",
+    "Session Layer.md",
+    "Spanning Tree Protocol.md",
+    "media/MAC Address Structure.png",
     "media/BPDU Wireshark.png",
-    "OSI Model/VLAN.md",
-    "OSI Model/Data Link Layer.md",
     "media/VLAN Trunking.png",
-    "OSI Model/Media Access Control (MAC).md",
-    "OSI Model/LAN.md",
-    "OSI Model/CMSA-CD.md",
-    "OSI Model/Transport Layer.md",
     "s",
-    "CSMA/CD.md",
-    "OSI Model/Link Aggregation Control.md",
     "Untitled",
-    "OSI Model/Session Layer.md",
-    "OSI Model/Presentation Layer.md",
-    "OSI Model/Physical Layer.md",
-    "OSI Model/Network Layer.md",
-    "OSI Model/Duplex Modes.md",
-    "OSI Model/Application Layer.md",
-    "IEEE Standards.md",
     "media/OSI-Layer.pdf",
     "media/MLT3.png",
-    "Network Devices.md",
     "bus system.png",
-    "See here for other cables.md",
     "CSMA",
-    "TODOs.md",
     "OSI Model",
     "media"
   ]

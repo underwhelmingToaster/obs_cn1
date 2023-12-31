@@ -12,8 +12,8 @@
 | LACP | Link Aggregation Control Protocol |
 | STP | Spanning Tree Protocol |
 | BPDU | Bridge Protocol Data Unit |
-|  |  |
-|  |  |
+| NAT | Network Address Translation |
+| PAT | Port Address Translation |
 |  |  |
 |  |  |
 |  |  |

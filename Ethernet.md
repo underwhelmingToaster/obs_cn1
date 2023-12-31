@@ -38,7 +38,7 @@ Here, a 0 means the Signal Level will remain constant while a 1 changes the Sign
 ## Encodings
 ## 4B/5B
 - Takes 4 Bits as Input, Outputs 5 Bits
-- Designed to produce a minimum of 2 Transitions (changes from 1 to 0 or inverse) per 5 bits of Output. This aids [[clock recovery]].
+- Designed to produce a minimum of 2 Transitions (changes from 1 to 0 or inverse) per 5 bits of Output. This aids clock recovery.
 - Encoding with Following Input:
 
 | HEX Input | Binary Input | 4B/5B Output |  | HEX Input | Binary Input | 4B/5B Output |
