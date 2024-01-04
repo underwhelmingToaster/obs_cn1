@@ -14,6 +14,6 @@
 | BPDU | Bridge Protocol Data Unit |
 | NAT | Network Address Translation |
 | PAT | Port Address Translation |
-|  |  |
-|  |  |
+| DNSSEC | Domain Name System Security Extensions |
+| NDP | Neighbor Discovery Protocol |
 |  |  |

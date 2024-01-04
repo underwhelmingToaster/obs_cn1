@@ -1,5 +1,9 @@
 {
   "accentColor": "",
-  "baseFontSize": 18,
-  "translucency": false
+  "baseFontSize": 20,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "adjusted heading size"
+  ],
+  "theme": "obsidian"
 }

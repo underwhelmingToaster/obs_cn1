@@ -1,3 +1,7 @@
+## Types of IPv6 Addresses
+### Link Local
+#todo au global no
+
 ## Composition
 
 | 4b | 8b | 20b | 16b | 8b | 8b | 128b (16B) | 128b (16B) |
@@ -17,7 +21,7 @@ Host Address can be
 - generated from MAC-Address ([[EUI-64]])
 - second address generated from Random Number for better privacy ([[Privacy Extension]])
 - one randomly generated Number
-- Assigned via [[DHCP]]
+- Assigned via [[Dynamic Host Configuration Protocol]]
 - Assigned via manual configuration
 
 ## Multicast Address
