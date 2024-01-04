@@ -4,22 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "166407bc10e89182",
+        "id": "36d461bfcc7c5ea1",
         "type": "tabs",
         "children": [
           {
-            "id": "e43c8029574989b0",
+            "id": "a10409f45f0df0a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Physical Layer.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/plugins/obsidian-git/data.json",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "8c5abf9e1ab282e0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "auto-",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "89854b5ba90a5946",
@@ -79,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Physical Layer.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -104,9 +111,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physical Layer.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -121,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physical Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,84 +159,30 @@
               "state": {}
             }
           }
-        ]
-      },
-      {
-        "id": "159b8d901d5a130d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "55a1b3f2e05714a5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "random-note:Open random note": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "55a1b3f2e05714a5",
+  "active": "8c5abf9e1ab282e0",
   "lastOpenFiles": [
-    "Physical Layer.md",
-    "Ethernet.md",
-    "Transport Control Protocol¦TCP.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Untitled.md",
-    "Dynamic Host Configuration Protocol.md",
-    "Logical Link Control.md",
-    "Link Aggregation Control.md",
-    "IPv6.md",
-    "Duplex Modes.md",
-    "Application Layer.md",
-    "10 Base Notation.md",
-    "Abbreviations.md",
-    "Encodings.md",
-    "VLAN.md",
-    "Domain Name System.md",
-    "Wireless.md",
-    "media/Return to Zero Encoding.png",
-    "File Transfer Protocol.md",
-    "Data Link Layer.md",
-    "Address Resolution Protocol.md",
-    "media/Manchester.png",
-    "Network Layer.md",
-    "Network Devices.md",
-    "Routing.md",
-    "QUIC.md",
-    "media/QUIC.png",
-    "media/Pasted image 20240104140237.png",
-    "Transport Control Protocol.md",
-    "Congestion Control.md",
-    "media/Congestion Control.png",
-    "media/DHCPv4 Process.png",
-    "media/DHCPv6 Process.png",
-    "media/DNS Hirarchy.png",
-    "media/EUI64.png",
-    "media/IPv6 Unicast.png",
-    "media/OSI-Layer.pdf",
-    "captures/dhcpv4 2.pcap",
-    "captures/dhcpv4 1.pcap",
-    "captures/dhcpv4.pcap",
     "captures",
-    "s",
-    "CSMA",
-    "OSI Model",
-    "media"
+    "media/OSI-Layer.pdf",
+    "media",
+    "Test 1.md",
+    "Test 2.md"
   ]
 }

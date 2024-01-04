@@ -35,7 +35,6 @@ Here, a 0 means the Signal Level will remain constant while a 1 changes the Sign
 | 100BaseT | 3 (1, 0, -1) |
 | 1000BaseT | 5 (1, 0.5, 0 -0.5, -1) |
 
-## Encodings
 ## 4B/5B
 - Takes 4 Bits as Input, Outputs 5 Bits
 - Designed to produce a minimum of 2 Transitions (changes from 1 to 0 or inverse) per 5 bits of Output. This aids clock recovery.

@@ -1,7 +1,7 @@
 This layer defines:
 - Which cables and plugs are used
 - How are signals transmitted (Voltage, Modulation)
-- Which encoding is used
+- Which [[Encodings]] is used
 
 ## Composition
 - Preamble (7B)
@@ -28,4 +28,6 @@ The time it takes for a signal to spread out over a certain distance. Signals in
 
 ## Auto-Negotiation
 A mechanism to automatically determine speed, duplex mode and flow control between devices.
-#todo add more
+
+The auto-negotiation process consists of the following steps:
+1. Exchange of capabilities using [[Fast Link Pulses]]
