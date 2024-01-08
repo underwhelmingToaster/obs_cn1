@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "acbe2af689d507ce",
+            "id": "dc9ffef79bf8f289",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Layer/Fragmentation.md",
+                "file": "Internet Control Message Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "adverti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "89854b5ba90a5946",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Layer/Fragmentation.md"
+                "file": "Internet Control Message Protocol.md"
               }
             }
           }
@@ -124,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Layer/Fragmentation.md",
+                "file": "Internet Control Message Protocol.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Layer/Fragmentation.md",
+                "file": "Internet Control Message Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +175,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "159b8d901d5a130d",
@@ -206,17 +206,25 @@
       "random-note:Open random note": false
     }
   },
-  "active": "acbe2af689d507ce",
+  "active": "dc9ffef79bf8f289",
   "lastOpenFiles": [
-    "Physical Layer/Physical Layer.md",
-    "conflict-files-obsidian-git.md",
+    "Network Layer.md",
+    "Network Layer/IP.md",
+    "Network Layer/IPv6.md",
+    "Internet Control Message Protocol.md",
+    "Dynamic Host Configuration Protocol.md",
+    "Network Layer/IPv4.md",
+    "Time to Live.md",
+    "media/OSI-Layer.pdf",
+    "Path MTU Discovery.md",
     "Network Layer/Fragmentation.md",
     "Maximum Transmission Unit.md",
+    "Fast Link Pulses.md",
+    "OSI Model.md",
+    "Physical Layer/Physical Layer.md",
+    "conflict-files-obsidian-git.md",
     "Untitled.md",
-    "Network Layer/IPv4.md",
     "Encodings.md",
-    "Time to Live.md",
-    "Network Layer/IPv6.md",
     "Dijkstra's algorithm.md",
     "media/dijkstra/dij03.jpg",
     "media/dijkstra/dij02.jpg",
@@ -238,20 +246,12 @@
     "media/Probe Request Wireshark.png",
     "Address Resolution Protocol.md",
     "Application Layer.md",
-    "Domain Name System.md",
-    "Dynamic Host Configuration Protocol.md",
-    "Network Layer/Flow Control.md",
-    "IEEE Standards.md",
-    "Routing.md",
-    "Spanning Tree Protocol.md",
-    "Physical Layer/Network Devices.md",
     "Transport Layer",
     "Network Layer",
     "Physical Layer",
     "Data Link Layer",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "media/OSI-Layer.pdf",
     "captures/dhcpv4 2.pcap",
     "captures/dhcpv4 1.pcap",
     "captures/dhcpv4.pcap",
