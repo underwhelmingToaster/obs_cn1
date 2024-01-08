@@ -1,4 +1,4 @@
-The goal of congestion control is to avoid sending more traffic onto a network than the network can handle, thus slowing it down unneccessairily. There are many congestion avoidance algorithms for TCP, all operating on the same principle of _additive increase/multiplicative decrease_ (AIMD).
+The goal of congestion control is to avoid sending more traffic onto a network than the network can handle, thus slowing it down unneccessairily. There are many congestion avoidance algorithms for [[Transport Control Protocol|TCP]], all operating on the same principle of _additive increase/multiplicative decrease_ (AIMD).
 
 > [!NOTE] Example of TCP Reno
 >
@@ -27,11 +27,10 @@ If the same `ACK` is recieved three consecutive times, the following actions are
 
 #### TCP Tahoe
 - retransmission is sent
-
-- sshtresh is set to $$ \fraq{\text{current window size}} / 2 $$
-
+- sshtresh is set to current window size / 2
 - slow start begins
 
 #### TCP Reno
 - [[Flow Control#Fast Retransmit|Fast Retransmit]] is sent
-- Window size and sshtresh are set to
+- Window size and sshtresh are set to current window size / 2
+	- thus, slow start is skipped

@@ -16,4 +16,4 @@
 | PAT | Port Address Translation |
 | DNSSEC | Domain Name System Security Extensions |
 | NDP | Neighbor Discovery Protocol |
-|  |  |
+| CIDR | Classless Inter-Domain Routing |

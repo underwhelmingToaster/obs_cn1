@@ -1,7 +1,11 @@
 This layer defines:
 - Which cables and plugs are used
 - How are signals transmitted (Voltage, Modulation)
-- Which encoding is used
+- Which [[Encodings]] is used
+
+> [!NOTE] Related Subjects
+> - [[Encodings]]
+> - [[Auto-Negotiation]]
 
 ## Composition
 - Preamble (7B)
@@ -25,7 +29,3 @@ Nowadays Ethernet mostly runs on twisted Pair or glass fibre cables. In the past
 
 ## Signal Propagation
 The time it takes for a signal to spread out over a certain distance. Signals in a Coaxial Cable propagate at about 2/3 of the speed of light.
-
-## Auto-Negotiation
-A mechanism to automatically determine speed, duplex mode and flow control between devices.
-#todo add more

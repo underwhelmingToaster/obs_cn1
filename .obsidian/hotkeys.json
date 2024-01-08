@@ -16,5 +16,30 @@
       ],
       "key": "C"
     }
+  ],
+  "obsidian-heading-shifter:increase-heading": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "+"
+    }
+  ],
+  "obsidian-heading-shifter:decrease-heading": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
+    }
   ]
 }

@@ -13,7 +13,7 @@
 - **Flow Label**: Experimental (allows each router in the Network path to have specific QoS requirements)
 - **Payload Length**: Length of Extension Header + Data
 - **Next Header**: Either Extension Header or Protocol of next Layer
-- **Hop Limit**: TTL Variable
+- **Hop Limit**: [[Time to Live|TTL]] Variable
 
 ## Unicast Address
 ![[IPv6 Unicast.png]]

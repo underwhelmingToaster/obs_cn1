@@ -1,4 +1,4 @@
-A VLAN is a way for one Switch to create multiple [[Media Access Control (MAC)#Broadcast Domain|Broadcast Domains]] (LAN). This has multiple advantages:
+A VLAN is a way for one Switch to create multiple [[Media Access Control#Broadcast Domain|Broadcast Domains]] (LAN). This has multiple advantages:
 - Reducing overhead by shrinking broadcast domains
 - Improve security for sensitive data
 - Reduce [[Spanning Tree Protocol]] Workload

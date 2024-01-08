@@ -1,6 +1,6 @@
 Also known as __Layer 2__, the Data Link Layer consist of two sublayers:
 - [[Logical Link Control]]
-- [[Media Access Control (MAC)]]
+- [[Media Access Control]]
 
 - Communicates with the physical [[Physical Layer|Layer 1]] Components
 - Handles Data Encapsulation and Media Access Control

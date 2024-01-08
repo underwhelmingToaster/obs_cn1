@@ -3,5 +3,5 @@
   "attachmentFolderPath": "media",
   "showUnsupportedFiles": true,
   "vimMode": false,
-  "autoConvertHtml": false
+  "autoConvertHtml": true
 }

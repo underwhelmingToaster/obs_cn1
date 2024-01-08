@@ -1,5 +1,11 @@
 TCP is a [[Transport Layer]] Protocol used for reliable connections.
 
+FPT is used in:
+- [[Hyper Text Transfer Protocol]]
+- [[File Transfer Protocol]]
+- Mail Protocols
+- [[Secure Shell Protocol]]
+
 > [!Info] TCP is…
 > - connection-oriented
 
