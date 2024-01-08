@@ -2,10 +2,13 @@ This layer defines:
 - Which cables and plugs are used
 - How are signals transmitted (Voltage, Modulation)
 - Which [[Encodings]] is used
+<<<<<<< HEAD:Physical Layer/Physical Layer.md
 
 > [!NOTE] Related Subjects
 > - [[Encodings]]
 > - [[Auto-Negotiation]]
+=======
+>>>>>>> origin/main:Physical Layer.md
 
 ## Composition
 - Preamble (7B)
@@ -29,3 +32,12 @@ Nowadays Ethernet mostly runs on twisted Pair or glass fibre cables. In the past
 
 ## Signal Propagation
 The time it takes for a signal to spread out over a certain distance. Signals in a Coaxial Cable propagate at about 2/3 of the speed of light.
+<<<<<<< HEAD:Physical Layer/Physical Layer.md
+=======
+
+## Auto-Negotiation
+A mechanism to automatically determine speed, duplex mode and flow control between devices.
+
+The auto-negotiation process consists of the following steps:
+1. Exchange of capabilities using [[Fast Link Pulses]]
+>>>>>>> origin/main:Physical Layer.md
