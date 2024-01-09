@@ -24,15 +24,15 @@ FPT is used in:
 - **Reserved**: Should be set to 0000
 - **Flags**:
 	- **CWR**: Congestion window reduced
-	- **ECE**
-	- **URG**: Urgent field is relevant
+	- **ECE**: [Congestion Notification](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure) related
+	- **[[#URG]]**: Urgent field is relevant
 	- **ACK**: Acknowledgement Field is relevant
-	- **PSH**: Asks to push buffered data to the application
-	- **RST**: Reset the connection
+	- **[[#PSH]]**: Asks to push buffered data to the application
+	- **RST**: Resets (aborts) the connection
 	- **SYN**: Synchronize Sequence Numbers (should only be set in the first packets from each end in the connection)
 	- **FIN**: Last packet from sender
 - **Window Size**: Size of [[#Sliding Window|receive Window]]
-- **Urgent Pointer**: Offset from sequence number indicating last urgent data byte
+- **[[#URG|Urgent Pointer]]**: Offset from sequence number indicating last urgent data byte
 - **Options**: Sometimes padded with 0 to match Data Offset Value
 
 ## Lifecycle
@@ -100,4 +100,17 @@ The connection could also only be closed by one side, in case a connection only 
 Due to the large overhead TCP Introduces, [[Flow Control]] and [[Congestion Control]] have been implemented to reduce network usage.
 
 ### Maximum Segment Size
-MSS is an option that specifies the maximum amount of payload of a single TCP Segment. Defaults to 536B but should be enlarged during the Three-Way Handshake.
+MSS is an option that specifies the maximum amount of payload of a single TCP Segment. Defaults to 536B but should be enlarged during the Three-Way Handshake to reduce overhead.
+
+## Buffering
+TCP is a protocol which allows its upper Layers a simple Socket for communication, masking the complexities of packet-based communications. To allow applications to read from and write to this socket at any time, buffers are implemented on both sides of a TCP connection in both directions.
+
+For example, this becomes relevant when an application wants to send a large file. It is able to hand over this file to TCP, which will buffer it and send multiple Packets, utilizing the MSS.
+
+## PSH
+If the push flag is set in a TCP Packet:
+- The sending application informs TCP that data should be sent immediately
+- The PSH flag in the TCP header informs the receiving host that the data should be pushed up to the receiving application immediately
+
+## URG
+Informs the receiving station that certain data within this segment is urgent. If set, the _Urgent Data_ field indicates how much of the data in the segment, counting from the first byte, is to be considered urgent.

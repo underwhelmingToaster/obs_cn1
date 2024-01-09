@@ -18,8 +18,8 @@
 	- **Don't Fragment**: If this flag is set and fragmentation is required to continue the route, the packet will be dropped. Can be used for [[Path MTU Discovery]]
 	- **More Fragments**: Set to 1 if there will be more fragments arriving.
 - **Fragment offset**: Specifies offset of data relative to the beginning of unfragmented Data. Is always specified in units of 8 Bytes.
-- **TTL**: [[Time to Live]] field
-- **Protocol**: Protocol that is used (e.g. [[Internet Control Message Protocol]])
+- **TTL**: [[TTL]] field
+- **Protocol**: Protocol that is used (e.g. [[ICMP]])
 
 ## IP Classes
 In classful subnetting, all networks are part of a Class.

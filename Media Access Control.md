@@ -24,7 +24,7 @@ This includes
 Defaults to Unique, where the first three Bytes are an OUI. When an address is administered locally, it can be whatever the administrator defines.
 
 ### Broadcast
-For a broadcast, the address FF:FF:FF:FF:FF:FF is used. Broadcasts are used by protocols such as [[Dynamic Host Configuration Protocol]] and [[Address Resolution Protocol]].
+For a broadcast, the address FF:FF:FF:FF:FF:FF is used. Broadcasts are used by protocols such as [[DHCP]] and [[ARP]].
 
 #### Broadcast Domain
 A broadcast domain is a logical division of a computer network where all devices can directly communicate with each other by broadcasting messages.

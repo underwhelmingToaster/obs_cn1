@@ -113,4 +113,3 @@ However, in practice, this approach is rather slow.
 
 ### 802.11r
 This IEEE Standard for Fast Roaming reduces the time it takes from one network to another.
-#todo

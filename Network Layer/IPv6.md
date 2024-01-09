@@ -1,6 +1,9 @@
 ## Types of IPv6 Addresses
 ### Link Local
-#todo au global no
+A unicast network address that is valid for communication within a subnet. In IPv6, a link-local address always starts with fe80::/10.
+
+#### Generation
+The most widely adopted way of generating a link-local address is to use the prefix fe80::/64 and the [[EUI-64]] generated interface identifier. Afterwards a [[DHCP#DAD|DAD]] is performed to check if the IP address is already used.
 
 ## Composition
 
@@ -13,7 +16,7 @@
 - **Flow Label**: Experimental (allows each router in the Network path to have specific QoS requirements)
 - **Payload Length**: Length of Extension Header + Data
 - **Next Header**: Either Extension Header or Protocol of next Layer
-- **Hop Limit**: [[Time to Live|TTL]] Variable
+- **Hop Limit**: [[TTL|TTL]] Variable
 
 ## Unicast Address
 ![[IPv6 Unicast.png]]
@@ -21,7 +24,7 @@ Host Address can be
 - generated from MAC-Address ([[EUI-64]])
 - second address generated from Random Number for better privacy ([[Privacy Extension]])
 - one randomly generated Number
-- Assigned via [[Dynamic Host Configuration Protocol]]
+- Assigned via [[DHCP]]
 - Assigned via manual configuration
 
 ## Multicast Address
@@ -55,7 +58,7 @@ A "1" for each flag indicates:
 | E            | Global      |
 
 ## Solicited Node Multicast Address
-#todo bro idk
+See [[Solicited-node Multicast]].
 
 ## Anycast Address
 IPv6 Anycast is done by assigning multiple Devices the same IPv6 address. When the client then requests this address, he is forwarded to the next node.

@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dcf3a9e284e15c54",
+        "id": "f462ec0e33186dd7",
         "type": "tabs",
         "children": [
           {
-            "id": "f07a799912b3d6cf",
+            "id": "64469534d8e182d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Layer/IPv4.md",
+                "file": "DHCP.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "dc9ffef79bf8f289",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internet Control Message Protocol.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08c7c433728bd270",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adverti",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internet Control Message Protocol.md"
+                "file": "DHCP.md"
               }
             }
           }
@@ -125,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internet Control Message Protocol.md",
+                "file": "DHCP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internet Control Message Protocol.md",
+                "file": "DHCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,46 +185,46 @@
       "random-note:Open random note": false
     }
   },
-  "active": "dc9ffef79bf8f289",
+  "active": "64469534d8e182d9",
   "lastOpenFiles": [
-    "Network Layer.md",
-    "Network Layer/IP.md",
+    "Physical Layer/Wireless.md",
+    "Network Layer/Logical Link Control.md",
     "Network Layer/IPv6.md",
-    "Internet Control Message Protocol.md",
-    "Dynamic Host Configuration Protocol.md",
-    "Network Layer/IPv4.md",
-    "Time to Live.md",
-    "media/OSI-Layer.pdf",
-    "Path MTU Discovery.md",
+    "LACP.md",
+    "Link Aggregation.md",
     "Network Layer/Fragmentation.md",
-    "Maximum Transmission Unit.md",
-    "Fast Link Pulses.md",
-    "OSI Model.md",
-    "Physical Layer/Physical Layer.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
-    "Encodings.md",
+    "DHCP.md",
+    "Data Link Layer/Auto-Negotiation.md",
+    "Network Management.md",
+    "Subnetting.md",
+    "TTL.md",
+    "UDP.md",
+    "VLAN.md",
+    "Network Documentation.md",
+    "DNS.md",
+    "TCP.md",
+    "Congestion Control.md",
+    "Network Layer/Flow Control.md",
+    "media/sliding window.jpeg",
+    "Link State Routing.md",
     "Dijkstra's algorithm.md",
+    "Routing.md",
+    "media/router link information.png",
+    "media/stub network information.png",
+    "media/Routing.png",
+    "Network Layer/IPv4.md",
+    "NAT.md",
+    "ARP.md",
+    "Solicited-node Multicast.md",
+    "DAD.md",
+    "media/OSI-Layer.pdf",
     "media/dijkstra/dij03.jpg",
     "media/dijkstra/dij02.jpg",
     "media/dijkstra/dijkstra01.jpg",
     "media/dijkstra",
-    "Network Address Translation.md",
-    "Abbreviations.md",
-    "Subnetting.md",
-    "Link Aggregation Control.md",
-    "Data Link Layer/Data Link Layer.md",
-    "Physical Layer/Wireless.md",
     "media/Association Request.webp",
     "media/Association Response.webp",
     "media/Authentication Response.png",
-    "media/Authentication Request.png",
-    "media/Authentication Frame.png",
-    "Data Link Layer/CMSA-CD.md",
-    "media/Probe Response Wireshark.png",
-    "media/Probe Request Wireshark.png",
-    "Address Resolution Protocol.md",
-    "Application Layer.md",
     "Transport Layer",
     "Network Layer",
     "Physical Layer",

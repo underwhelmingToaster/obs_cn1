@@ -13,13 +13,15 @@ Subnets and their next hops are manually configured.
 
 ## Dynamic Routing
 Dynamic Routing is done by a routing protocol. A routing protocol allows routers to send, receive and forward Routing Updates. This allows the network to determine the quickest path from one point to another. Routing protocols include:
-- Routing Information Protocol _(RIP)_
-- Interior Gateway Protocol _(IGRP)_
-- Open Shortest Path First _(OSPF)_
-- Exterior Gateway Protocol _(EGP)_
-- Enhanced Interior Gateway Routing Protocol _(EIGRP)_
-- Border Gateway Protocol _(BGP)_
-- Intermediate System-to-Intermediate System _(IS-IS)_
+- [[Link State Routing]] Protocols:
+	- Intermediate System-to-Intermediate System _(IS-IS)_
+	- Open Shortest Path First _(OSPF)_
+- Distance-vector routing protocol
+	- Routing Information Protocol _(RIP)_
+	- Interior Gateway Protocol _(IGRP)_
+	- Exterior Gateway Protocol _(EGP)_
+	- Enhanced Interior Gateway Routing Protocol _(EIGRP)_
+	- Border Gateway Protocol _(BGP)_
 
 ### Convergence
 Convergence is a state of constancy in the network, so that each participating router agrees on the optimal way from one destination to another. Convergence is necessary in any network. If convergence is not achieved, a routing loop can happen.

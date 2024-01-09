@@ -1,4 +1,4 @@
-Used to address Devices in [[IPv4#Private Address Spaces|Private IP Ranges]]. It involves the process of swapping one IP address with another.
+Network Address Translation is used to address Devices in [[IPv4#Private Address Spaces|Private IP Ranges]]. It involves the process of swapping one IP address with another.
 
 ## Types of NAT
 ### Static NAT
@@ -26,3 +26,9 @@ Internal IP Addr.                                        External IP Addr
 
 ### Overlapping NAT
 Two hosts have the same internal IP Addresses. The router intercepts their package and, with the help of a lookup table, replaces the internal Address with a unique external one.
+
+> [!example] Clear NAT Translations
+> To clear all NAT Translations on a router, enter
+> ```
+> clear ip nat translations *
+> ```

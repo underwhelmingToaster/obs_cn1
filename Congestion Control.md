@@ -1,4 +1,4 @@
-The goal of congestion control is to avoid sending more traffic onto a network than the network can handle, thus slowing it down unneccessairily. There are many congestion avoidance algorithms for [[Transport Control Protocol|TCP]], all operating on the same principle of _additive increase/multiplicative decrease_ (AIMD).
+The goal of congestion control is to avoid sending more traffic onto a network than the network can handle, thus slowing it down unneccessairily. There are many congestion avoidance algorithms for [[TCP|TCP]], all operating on the same principle of _additive increase/multiplicative decrease_ (AIMD).
 
 > [!NOTE] Example of TCP Reno
 >
@@ -9,7 +9,7 @@ The goal of congestion control is to avoid sending more traffic onto a network t
 > `ssthresh`: Slow start threshold
 
 ## Slow Start
-Slow Start begins with a CWND of 1 [[Transport Control Protocol#Maximum Segment Size|MSS]] (can vary). With each recieved ACK, the window size is doubled.
+Slow Start begins with a CWND of 1 [[TCP#Maximum Segment Size|MSS]] (can vary). With each recieved ACK, the window size is doubled.
 
 This continues until either `sshthresh` is reached or packet loss is detected. Once sshtresh is reached, Congestion Avoidance will take over.
 

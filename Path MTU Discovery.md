@@ -5,6 +5,6 @@ The Internet Protocol defines the _path MTU_ of an Internet transmission path as
 
 ## Process
 - Send packets with the [[IPv4#Composition|DF]] (Don't Fragment) bit set
-- If any device in the path has a smaller [[Maximum Transmission Unit]], it will send an _[[Internet Control Message Protocol|ICMP]] Destination Unreachable (Datagram Too Big)_ Message, indicating its MTU
+- If any device in the path has a smaller [[MTU]], it will send an _[[ICMP|ICMP]] Destination Unreachable (Datagram Too Big)_ Message, indicating its MTU
 - The host can adjust MTU Appropriately
 - Repeat process until Packet arrives at location.

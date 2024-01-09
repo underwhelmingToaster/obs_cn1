@@ -1,4 +1,4 @@
-A [[Network Layer]] Protocol used to communicate error messages or operational information about network conditions. ICMP is to be used with [[IPv4]]
+The Internet Control Message Protocol is a [[Network Layer]] Protocol used to communicate error messages or operational information about network conditions. ICMP is to be used with [[IPv4]]
 
 ## Composition
 
@@ -23,10 +23,10 @@ Code field gives more detailed reason.
 Used for ping. Expects a [[#0 - Reply]]
 
 ### 9 - Router Advertisement
-See [[Dynamic Host Configuration Protocol]]
+See [[DHCP]]
 
 ### 10 - Router Solicitation
-See [[Dynamic Host Configuration Protocol]]
+See [[DHCP]]
 
 ### 11 - Time Exceeded
-When [[Time to Live]] expires
+When [[TTL]] expires

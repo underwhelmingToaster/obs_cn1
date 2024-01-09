@@ -1,4 +1,4 @@
-UDP is a simple [[Transport Layer]] Protocol with little overhead. Adds support for Ports.
+User Datagram Protocol is a simple [[Transport Layer]] Protocol with little overhead. Adds support for Ports.
 
 > [!Info] UDP is…
 > - connectionless
@@ -17,7 +17,7 @@ UDP is a simple [[Transport Layer]] Protocol with little overhead. Adds support 
 
 ## Usage
 Due to very little overhead, UDP is used in various protocols such as:
-- [[Domain Name System]]
+- [[DNS]]
 - Various routing protocols such as [[Routing#Dynamic Routing|RIP]]
-- [[Dynamic Host Configuration Protocol]]
+- [[DHCP]]
 - Real Time Transport Protocol (RTP)

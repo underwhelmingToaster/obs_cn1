@@ -4,7 +4,7 @@ A mechanism to automatically determine speed, [[Duplex Modes]] and flow control 
 When connected to a cable, devices will send out pulses.
 - 10BaseT sends out one pulse every 16ms. These are called Normal Link Pulses (NLP)
 - 100BaseT sends out 16 pulses each 16ms. These are called Fast Link Pulses (FLP)
-- #todo was sändet 1000BaseT usw?
+
 ## Link Code Words
 Devices that support Auto-Negotiation will send these 16 Pulse bursts with different flags set to communicate their capabilities.
 

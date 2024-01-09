@@ -1,4 +1,4 @@
-The largest [[Network Layer]] [[OSI Model#Terminoliogy|PDU]] that can be communicated in one transaction.
+The Maximum Transmission Unit, The largest [[Network Layer]] [[OSI Model#Terminoliogy|PDU]] that can be communicated in one transaction.
 
 | Media | MTU in bytes |
 | ---- | ---- |
