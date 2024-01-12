@@ -26,3 +26,13 @@ Used for Ping
 
 ### 129 - Echo Reply
 Used for ping.
+
+### 133 - RS
+[[DHCP]]
+
+### 134 - RA
+[[DHCP]]
+
+### 135 - NS
+
+### 136 - NA

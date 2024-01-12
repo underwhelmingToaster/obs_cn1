@@ -93,7 +93,11 @@ Contains the same Information as a association request/response.
 #### Disassociation Frame
 Dissociation frames are sent to terminate the connection. Can be sent from either AP or client.
 
+> [!tldr] Data Rates
+> All Management Frames get transmitted at the lowest data rate supported by the AP to ensure maximum capability.
+
 ## Roaming
+#todo sticky client problem
 Roaming is when a client moves from one AP to another. Roaming should be instant and not noticeable by the user.
 ```mermaid
 sequenceDiagram

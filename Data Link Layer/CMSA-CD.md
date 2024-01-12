@@ -62,7 +62,7 @@ These defined time periods help regulate timing between frame transmission on a 
 SIFS is used for the highest priority packets. Used for Clear to Send (CTS), Acknowledgment (ACK), and Block Acknowledgment (Block ACK).
 
 #### Point Coordination Function (PIFS)
-Middle Priority messages.
+Middle Priority messages. Used for Beacon and PCF
 
 #### Distributed Coordination Function (DIFS)
-Lowest Priority, used for Data Transmission
+Lowest Priority, used for Data Transmission, Request to send (RTS)
